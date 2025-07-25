@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lacambra_Website - Healthcare Monitoring</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #f4f8f9;
+    }
+
+    header {
+      background-color: #007BFF;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      background-color: #e9ecef;
+      padding: 10px;
+    }
+
+    nav a {
+      margin: 0 15px;
+      color: #007BFF;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    section {
+      padding: 20px;
+    }
+
+    h2 {
+      color: #007BFF;
+    }
+
+    .faq {
+      background-color: #ffffff;
+      padding: 15px;
+      border-radius: 5px;
+      margin-bottom: 10px;
+      box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    }
+
+    footer {
+      background-color: #007BFF;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      margin-top: 30px;
+    }
+
+    @media (max-width: 600px) {
+      nav {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Lacambra's Healthcare Monitoring</h1>
+    <p>Improving patient care through technology</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#features">Features</a>
+    <a href="#faq">FAQ</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about">
+    <h2>About the System</h2>
+    <p>This website is designed to support patients and healthcare workers in monitoring health conditions, reminders for medication, and connecting with providers. It emphasizes patient safety, usability, and evidence-based features to improve health outcomes.</p>
+  </section>
+
+  <section id="features">
+    <h2>Key Features</h2>
+    <ul>
+      <li>Real-time vital sign monitoring</li>
+      <li>Daily health logs</li>
+      <li>Medication reminders</li>
+      <li>Data sharing with healthcare professionals</li>
+      <li>User-friendly interface for all ages</li>
+    </ul>
+  </section>
+
+  <section id="faq">
+    <h2>Frequently Asked Questions (FAQ)</h2>
+    
+    <div class="faq">
+      <strong>Q: Can I access the system on my phone?</strong>
+      <p>A: Yes! The website is mobile-responsive and works on all devices.</p>
+    </div>
+    
+    <div class="faq">
+      <strong>Q: How does the system help with medication?</strong>
+      <p>A: You’ll receive reminders and alerts to take medications on time.</p>
+    </div>
+
+    <div class="faq">
+      <strong>Q: Is my health data secure?</strong>
+      <p>A: Yes, all personal data is stored securely and only shared with authorized professionals.</p>
+    </div>
+    
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>For questions or technical support, contact: <br><strong>Lacambra Support Team</strong> <br>Email: support@lacambrahealth.com</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Lacambra Healthcare Monitoring. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
